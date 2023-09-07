@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.container{
+    text-align: center;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0 ,0.5);
+    background-color: white;
+}
+
+.header{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.display{
+    margin-bottom: 10px;
+}
+
+#passInput{
+
+    width: 75%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: large;
+    font-weight: bold;   
+}
+#copy-btn{
+
+    background-color: blue;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0 ,0, 0.2);
+}
+
+.setting{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 7.5px 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#generate-btn{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0 ,0, 0.2);
+    font-size: 1rem;
+    font-weight: bold;
+}
